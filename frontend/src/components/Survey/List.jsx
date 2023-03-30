@@ -38,7 +38,7 @@ const List = () => {
                     headers:{Authorization:token}
                 }).then((res) => res.json())
                 .then(response=> 
-                    navigate("/form" , {state:{id:response.listId}})
+                    navigate("/form")
                 )
                 
             }
