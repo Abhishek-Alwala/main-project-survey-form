@@ -43,7 +43,7 @@ const Preview = () => {
                 <div className={`preview-container preview-container-${themes}`} >
                     <div className="preview-con" >
                         <div className={`preview-div preview-div-${themes}`}>
-                            <ArrowBackIcon onClick={() => { navigate("/") }} />
+                            <ArrowBackIcon onClick={() => { navigate("/form") }} />
                             <h3 >Preview</h3>
                         </div>
                         <div>
