@@ -184,7 +184,7 @@ const Themes = () => {
         <center>
           {/* <button className="cancel">Cancel</button> */}
           <button className={`prev-btn ${themes ? `cancel-${themes}` : null}`} onClick={() => { navigate("/form") }}>cancel</button>
-          <button className={`prev-btn ${themes ? `save-${themes}` : null}`} onClick={() => { navigate("/form") }}>Save</button>
+          <button className={`prev-btn ${themes ? `save-${themes}` : null}`} onClick={() => { navigate("/main") }}>Save</button>
           {/* <button onClick={handleClick}>Save</button> */}
         </center>
       </div>
