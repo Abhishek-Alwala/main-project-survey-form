@@ -25,7 +25,7 @@ const Preview = () => {
         questionData.append("questions", JSON.stringify(location.state.data.questions))
         questionData.append("option", JSON.stringify(location.state.data.arr))
      
-        fetch("https://survey-form-example-8.onrender.com/createForm", {
+        fetch("https://nafeez-survey-form.onrender.com/createForm", {
             method: "POST",
             headers:{Authorization:token},
             body: questionData

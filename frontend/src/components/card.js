@@ -11,7 +11,7 @@ const Card = ({ details }) => {
 
    const handleDelete = (id) =>{
     const token = sessionStorage.getItem("token")
-    fetch(`https://survey-form-example-8.onrender.com/createForm/delete?id=${id}` ,{
+    fetch(`https://nafeez-survey-form.onrender.com/createForm/delete?id=${id}` ,{
         method:"DELETE",
         headers:{Authorization:token}
     }).then((res) => res.json())

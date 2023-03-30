@@ -31,7 +31,7 @@ function Register() {
          formData.forEach((val, key) => {
         console.log(val,key)
     })
-        const response = await fetch('https://survey-form-example-8.onrender.com/user/register', {
+        const response = await fetch('https://nafeez-survey-form.onrender.com/user/register', {
             method: 'POST',
             body: formData
         })
