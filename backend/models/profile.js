@@ -7,5 +7,5 @@ const profileSchema = new Schema({
 })
 
 const profileModel = mongoose.model("profile" , profileSchema)
-
+//const proof shoild be added before the law pont 
 module.exports = profileModel 
